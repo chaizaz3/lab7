@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class ChildW extends StatelessWidget {
+  dynamic? nicon;
+  String? ntext;
+  
+  ChildW({required this.nicon, required this.ntext});
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+       mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+     nicon,
+     Text(ntext.toString())	
+    ],);
+  }
+}
